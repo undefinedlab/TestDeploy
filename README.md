@@ -1,41 +1,36 @@
-# Web3Auth (`@web3auth/modal`) x EVM x React
+# Fanstar
 
-[![Web3Auth](https://img.shields.io/badge/Web3Auth-SDK-blue)](https://web3auth.io/docs/sdk/pnp/web/modal)
-[![Web3Auth](https://img.shields.io/badge/Web3Auth-Community-cyan)](https://community.web3auth.io)
+## Introduction
 
-[Join our Community Portal](https://community.web3auth.io/) to get support and stay up to date with the latest news and updates.
+Fanstar is a Web3 platform designed to add on fan engagement in sports. It connects athletes directly with their supporters, enabling the creation of tokenized fan clubs and unique digital experiences.
 
-This example demonstrates how to use Web3Auth with EVM in React.
+## Technology Stack
 
-## How to Use
+This project is built using:
+- React (with TypeScript)
+- Vite
+- Web3Auth
+- Ethers.js
+- Solidity (for smart contracts)
+- Vercel (for deployment)
 
-### One-Click Deploy to Vercel
+The project structure is based on the Web3Auth React Quick Start template, adapted and expanded to meet Fanstar's specific requirements.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FWeb3Auth%2Fweb3auth-pnp-examples%2Ftree%2Fmain%2Fweb-modal-sdk%2Fquick-starts%2Freact-vite-evm-modal-quick-start&project-name=w3a-react-vite-no-modal&repository-name=w3a-react-vite-no-modal)
+## Getting Started
 
-### Download Manually
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Set up environment variables (if needed)
+4. Run the development server: `npm run dev`
 
-```bash
-npx degit Web3Auth/web3auth-pnp-examples/web-modal-sdk/quick-starts/react-modal-quick-start w3a-example
-```
+## Key Features
 
-Install & Run:
+- Web3Auth integration for seamless user onboarding
+- Smart contract interaction for creating and managing fan clubs
+- NFT minting for club memberships
+- Token-based interactions between fans and athletes
 
-```bash
-cd w3a-example
-npm install
-npm run dev
-# or
-cd w3a-example
-yarn
-yarn dev
-```
+## Deployment
 
-## Important Links
+The project is configured for deployment on Vercel. Push to the main branch to trigger automatic deployment.
 
-- [Website](https://web3auth.io)
-- [Docs](https://web3auth.io/docs)
-- [Guides](https://web3auth.io/docs/guides)
-- [SDK / API References](https://web3auth.io/docs/sdk)
-- [Pricing](https://web3auth.io/pricing.html)
-- [Community Portal](https://community.web3auth.io)
